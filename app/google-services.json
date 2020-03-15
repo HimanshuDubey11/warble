@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "307626463969",
+    "firebase_url": "https://warbleandroid.firebaseio.com",
+    "project_id": "warbleandroid",
+    "storage_bucket": "warbleandroid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:307626463969:android:811a06adfab3d943",
+        "android_client_info": {
+          "package_name": "warble.project.com.warbleandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "307626463969-b4psg4dcmps9jtno9c8mire5qpdifc7p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "warble.project.com.warbleandroid",
+            "certificate_hash": "874a975c8901e150d1b089ed174197ed80e0a097"
+          }
+        },
+        {
+          "client_id": "307626463969-lblm49nr0f0p01tvqkp7rgj6f4vdan33.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmrioW_7G2EVMAn9Z6W3aNysB1IQZ_86A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "307626463969-lblm49nr0f0p01tvqkp7rgj6f4vdan33.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

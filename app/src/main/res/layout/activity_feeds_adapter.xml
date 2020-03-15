@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="20dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Utils.FeedsAdapter">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/relative1"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="wrap_content"
+            android:layout_margin="5dp"
+            android:id="@+id/relative1profile"
+            android:layout_height="40dp"
+            android:src="@drawable/profileimage" />
+
+        <TextView
+            android:layout_centerInParent="true"
+            android:textColor="@color/textcolor"
+            android:layout_width="wrap_content"
+            android:id="@+id/relative1text"
+            android:text="Name"
+            android:layout_margin="5dp"
+            android:layout_toRightOf="@id/relative1profile"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/relative2"
+        android:layout_below="@id/relative1"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:id="@+id/relative2video"
+            android:layout_width="match_parent"
+            android:layout_height="180dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_below="@id/relative2"
+        android:layout_width="match_parent"
+        android:id="@+id/relative3"
+        android:layout_marginTop="8dp"
+        android:layout_height="30dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:id="@+id/feedslike"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_like"
+            android:layout_height="20dp" />
+
+        <ImageView
+            android:layout_centerVertical="true"
+            android:id="@+id/feedscomment"
+            android:layout_width="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/feedslike"
+            android:src="@drawable/ic_chat"
+            android:layout_height="20dp" />
+
+        <ImageView
+            android:layout_centerVertical="true"
+            android:id="@+id/feedsshare"
+            android:layout_width="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/feedscomment"
+            android:src="@drawable/ic_paper_plane"
+            android:layout_height="20dp" />
+
+        <ImageView
+            android:layout_centerVertical="true"
+            android:id="@+id/feedsadd"
+            android:layout_width="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/plusbutton"
+            android:layout_height="20dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_below="@id/relative3"
+        android:layout_width="match_parent"
+        android:id="@+id/relative4"
+        android:layout_marginTop="8dp"
+        android:layout_height="20dp">
+
+        <TextView
+            android:textColor="@color/textcolor"
+            android:textSize="12dp"
+            android:layout_width="wrap_content"
+            android:id="@+id/feedssingername"
+            android:text="Singer Name"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textColor="@color/textcolor"
+            android:textSize="12dp"
+            android:layout_width="wrap_content"
+            android:id="@+id/feedshyphen"
+            android:text=" - "
+            android:layout_toRightOf="@id/feedssingername"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textColor="@color/textcolor"
+            android:textSize="12dp"
+            android:layout_width="wrap_content"
+            android:id="@+id/feedssongname"
+            android:text="Song Name"
+            android:layout_toRightOf="@id/feedshyphen"
+            android:layout_height="wrap_content" />
+
+        <RelativeLayout
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:id="@+id/feedslikessummary"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:src="@android:drawable/ic_media_play"
+                android:layout_width="wrap_content"
+                android:id="@+id/feedslikesicon"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:textSize="12dp"
+                android:layout_toRightOf="@id/feedslikesicon"
+                android:textColor="@color/textcolor"
+                android:layout_width="wrap_content"
+                android:id="@+id/feedslikesnumber"
+                android:text="00"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textColor="@color/textcolor"
+                android:textSize="12dp"
+                android:layout_toRightOf="@id/feedslikesnumber"
+                android:layout_width="wrap_content"
+                android:id="@+id/feedslikesunit"
+                android:text="unit"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textColor="@color/textcolor"
+                android:textSize="12dp"
+                android:layout_toRightOf="@id/feedslikesunit"
+                android:layout_width="wrap_content"
+                android:id="@+id/feedslikestext"
+                android:text="Views"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_below="@id/relative4"
+        android:layout_width="match_parent"
+        android:id="@+id/relative5"
+        android:layout_height="10dp">
+
+        <ImageView
+            android:layout_centerInParent="true"
+            android:scaleType="fitXY"
+            android:layout_width="180dp"
+            android:src="@drawable/horizontalline"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_below="@id/relative5"
+        android:layout_width="wrap_content"
+        android:id="@+id/relative6"
+        android:layout_centerHorizontal="true"
+        android:layout_height="20dp">
+
+        <TextView
+            android:textColor="@color/textcolor"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:text="00"
+            android:id="@+id/numlikes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textSize="12dp"
+            android:textColor="@color/textcolor"
+            android:text=" Likes"
+            android:id="@+id/numlikestext"
+            android:layout_toRightOf="@id/numlikes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_toRightOf="@id/numlikestext"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:textColor="@color/textcolor"
+            android:text=" . "
+            android:id="@+id/dotlikecomment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:textColor="@color/textcolor"
+            android:id="@+id/numcomments"
+            android:text="00"
+            android:layout_toRightOf="@id/dotlikecomment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_toRightOf="@id/numcomments"
+            android:textSize="12dp"
+            android:id="@+id/numcommentstext"
+            android:text=" Comments"
+            android:textColor="@color/textcolor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

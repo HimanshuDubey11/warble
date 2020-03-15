@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/bottomnavhome"
+        android:title="Feeds" />
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/bottomnavinbox"
+        android:title="Inbox" />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/bottomnavarrow"
+        android:title="Vertical Videos" />
+
+    <item
+        android:id="@+id/navigation_discover"
+        android:icon="@drawable/bottomnavdiscover"
+        android:title="Discover" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/bottomnavuser"
+        android:title="Profile" />
+
+</menu>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.UploadVideoActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/upload_linear"
+                android:layout_marginTop="24dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <VideoView
+                        android:layout_centerInParent="true"
+                        android:id="@+id/uploadvideoview"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp" />
+
+                </RelativeLayout>
+
+                <EditText
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="1"
+                    android:id="@+id/uploadtitle"
+                    android:layout_centerHorizontal="true"
+                    android:hint="Title of song"
+                    android:textAlignment="center"
+                    android:singleLine="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/splashactivitybackground"
+                android:id="@+id/uploadthumbnail"
+                android:layout_marginTop="16dp"
+                android:layout_below="@id/upload_linear"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <Button
+                android:layout_marginTop="24dp"
+                android:background="@drawable/post_button"
+                android:text="Upload"
+                android:paddingRight="8dp"
+                android:paddingLeft="8dp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/uploadthumbnail"
+                android:id="@+id/uploadbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

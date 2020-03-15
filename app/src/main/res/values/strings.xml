@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">WarbleAndroid</string>
+    <string name="facebook_application_id" translatable="false">1162896403858133</string>
+    <string name="back">back</string>
+    <string name="video_title">title</string>
+    <string name="time">TIME</string>
+    <string name="play_as_audio">PLAY AS AUDIO</string>
+    <string name="rewind_button">rewind</string>
+    <string name="play_button">play</string>
+    <string name="pause_button">pause</string>
+    <string name="forward_button">forward</string>
+    <string name="fit_to_screen">FIT TO SCREEN</string>
+    <string name="fullscreen">FULLSCREEN</string>
+    <string name="normal">NORMAL</string>
+    <string name="previous_button">PREVIOUS</string>
+    <string name="next_button">NEXT</string>
+    <string name="change_text_color">T</string>
+
+<!--    <string name="web_client_id" translatable="false">307626463969-lblm49nr0f0p01tvqkp7rgj6f4vdan33.apps.googleusercontent.com</string>-->
+<!--    <string name="google_api_key" translatable="false">AIzaSyCZPzxNF_1IN_nvrMTdgCwkMIrY2rDtShk</string>-->
+<!--    <string name="google_app_id" translatable="false">1:307626463969:android:811a06adfab3d943</string>-->
+<!--    <string name="project_id" translatable="false">warbleandroid</string>-->
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
